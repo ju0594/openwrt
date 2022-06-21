@@ -258,6 +258,15 @@ define Device/tplink_tl-wpa8630p-v2.1-eu
 endef
 TARGET_DEVICES += tplink_tl-wpa8630p-v2.1-eu
 
+define Device/tplink_tl-wr702n
+  $(Device/tplink-16mlzma)
+  SOC := ar9331
+  DEVICE_MODEL := TL-WR702N
+  TPLINK_HWID := 0x07030101
+  SUPPORTED_DEVICES += tl-wr702n
+endef
+TARGET_DEVICES += tplink_tl-wr703n
+
 define Device/tplink_tl-wr703n
   $(Device/tplink-4mlzma)
   SOC := ar9331
