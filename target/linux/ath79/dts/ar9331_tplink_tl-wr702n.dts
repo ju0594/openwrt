@@ -3,6 +3,6 @@
 #include "ar9331_tplink_tl-wr702n_tl-mr10u.dtsi"
 
 / {
-	model = "TP-Link TL-WR703N";
+	model = "TP-Link TL-WR702N";
 	compatible = "tplink,tl-wr702n", "qca,ar9331";
 };
