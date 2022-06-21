@@ -265,7 +265,7 @@ define Device/tplink_tl-wr702n
   TPLINK_HWID := 0x07030101
   SUPPORTED_DEVICES += tl-wr702n
 endef
-TARGET_DEVICES += tplink_tl-wr703n
+TARGET_DEVICES += tplink_tl-wr702n
 
 define Device/tplink_tl-wr703n
   $(Device/tplink-4mlzma)
